@@ -1,0 +1,1129 @@
+2025-02-05 02:53:11,207 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,237 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002599&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6974
+2025-02-05 02:53:11,249 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,283 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002642&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7002
+2025-02-05 02:53:11,292 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,327 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002660&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6872
+2025-02-05 02:53:11,334 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,370 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=1.605338&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6616
+2025-02-05 02:53:11,379 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,416 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002364&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6784
+2025-02-05 02:53:11,425 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,456 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=1.600410&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6813
+2025-02-05 02:53:11,467 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,496 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002861&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7223
+2025-02-05 02:53:11,506 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,543 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=1.603859&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7169
+2025-02-05 02:53:11,553 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,586 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.003040&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7110
+2025-02-05 02:53:11,593 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,623 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.001309&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7686
+2025-02-05 02:53:11,633 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,662 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=1.603758&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6608
+2025-02-05 02:53:11,671 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,699 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=1.600255&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 6292
+2025-02-05 02:53:11,708 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,737 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002362&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7310
+2025-02-05 02:53:11,745 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2025-02-05 02:53:11,775 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://push2his.eastmoney.com/api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.000977&beg=20240206&end=20250205&_=1623766962675 HTTP/1.1" 200 7764
+2025-02-05 02:53:11,783 - root - INFO - [INFO] 历史数据准备完毕。开始进入观察模式...
+2025-02-05 02:53:11,787 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:11,867 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:11,868 - root - DEBUG - 2025-02-05 02:53:11.868799 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:11,870 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:11,960 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:11,962 - root - DEBUG - 2025-02-05 02:53:11.962223 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:11,963 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,056 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:12,058 - root - DEBUG - 2025-02-05 02:53:12.058556 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:12,059 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,144 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:12,146 - root - DEBUG - 2025-02-05 02:53:12.146106 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:12,146 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,243 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:12,246 - root - DEBUG - 2025-02-05 02:53:12.246032 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:12,247 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,331 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:12,333 - root - DEBUG - 2025-02-05 02:53:12.333112 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:12,334 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,414 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:12,415 - root - INFO - [ALERT] 002861 瀛通通讯 价格 16.61 已进入区间 [16.53, 16.86]
+2025-02-05 02:53:12,416 - root - INFO - [ALERT] 股票 瀛通通讯 触发策略 - 当前价: 16.61, MA5区间: [16.53, 16.86]
+2025-02-05 02:53:12,420 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-05 02:53:12,420 - root - DEBUG - 2025-02-05 02:53:12.420691 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:12,422 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,525 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:12,528 - root - DEBUG - 2025-02-05 02:53:12.528137 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:12,528 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,613 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:12,615 - root - DEBUG - 2025-02-05 02:53:12.615184 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:12,616 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,700 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:12,701 - root - DEBUG - 2025-02-05 02:53:12.701787 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:12,703 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,792 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:12,794 - root - DEBUG - 2025-02-05 02:53:12.794506 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:12,795 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,881 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:12,884 - root - INFO - [ALERT] 600255 鑫科材料 价格 3.99 已进入区间 [3.93, 4.01]
+2025-02-05 02:53:12,884 - root - INFO - [ALERT] 股票 鑫科材料 触发策略 - 当前价: 3.99, MA5区间: [3.93, 4.01]
+2025-02-05 02:53:12,884 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-05 02:53:12,884 - root - DEBUG - 2025-02-05 02:53:12.884679 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:12,885 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:12,973 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:12,974 - root - DEBUG - 2025-02-05 02:53:12.974931 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:12,976 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:13,060 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:13,062 - root - DEBUG - 2025-02-05 02:53:13.062552 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:14,065 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,152 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:14,154 - root - DEBUG - 2025-02-05 02:53:14.154321 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:14,154 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,227 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:14,230 - root - DEBUG - 2025-02-05 02:53:14.230023 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:14,231 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,315 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:14,317 - root - DEBUG - 2025-02-05 02:53:14.317802 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:14,318 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,400 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:14,402 - root - DEBUG - 2025-02-05 02:53:14.402070 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:14,403 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,487 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:14,490 - root - DEBUG - 2025-02-05 02:53:14.490210 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:14,490 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,582 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:14,583 - root - DEBUG - 2025-02-05 02:53:14.583510 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:14,585 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,660 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:14,662 - root - DEBUG - 2025-02-05 02:53:14.662295 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:14,662 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,743 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:14,745 - root - DEBUG - 2025-02-05 02:53:14.745797 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:14,746 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,835 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:14,837 - root - DEBUG - 2025-02-05 02:53:14.837264 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:14,838 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:14,920 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:14,922 - root - DEBUG - 2025-02-05 02:53:14.922897 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:14,923 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:15,007 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:15,009 - root - DEBUG - 2025-02-05 02:53:15.009621 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:15,010 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:15,101 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:15,103 - root - DEBUG - 2025-02-05 02:53:15.103407 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:15,104 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:15,186 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:15,188 - root - DEBUG - 2025-02-05 02:53:15.188518 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:15,190 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:15,273 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:15,274 - root - DEBUG - 2025-02-05 02:53:15.274910 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:16,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,361 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:16,364 - root - DEBUG - 2025-02-05 02:53:16.364039 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:16,365 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,455 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:16,456 - root - DEBUG - 2025-02-05 02:53:16.456492 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:16,457 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,545 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:16,548 - root - DEBUG - 2025-02-05 02:53:16.548099 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:16,549 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,645 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:16,646 - root - DEBUG - 2025-02-05 02:53:16.646631 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:16,647 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,738 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:16,740 - root - DEBUG - 2025-02-05 02:53:16.740200 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:16,744 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,837 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:16,840 - root - DEBUG - 2025-02-05 02:53:16.840299 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:16,841 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:16,925 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:16,927 - root - DEBUG - 2025-02-05 02:53:16.927519 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:16,928 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,011 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:17,013 - root - DEBUG - 2025-02-05 02:53:17.012076 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:17,013 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,102 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:17,104 - root - DEBUG - 2025-02-05 02:53:17.104237 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:17,105 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,186 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:17,187 - root - DEBUG - 2025-02-05 02:53:17.187792 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:17,189 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,284 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:17,286 - root - DEBUG - 2025-02-05 02:53:17.286414 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:17,287 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,365 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:17,367 - root - DEBUG - 2025-02-05 02:53:17.367206 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:17,367 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,450 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:17,451 - root - DEBUG - 2025-02-05 02:53:17.451657 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:17,452 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:17,537 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:17,539 - root - DEBUG - 2025-02-05 02:53:17.539631 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:18,542 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:18,633 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:18,635 - root - DEBUG - 2025-02-05 02:53:18.635513 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:18,636 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:18,723 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:18,725 - root - DEBUG - 2025-02-05 02:53:18.725797 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:18,726 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:18,826 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:18,828 - root - DEBUG - 2025-02-05 02:53:18.828910 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:18,829 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:18,918 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:18,919 - root - DEBUG - 2025-02-05 02:53:18.919745 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:18,920 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,015 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:19,017 - root - DEBUG - 2025-02-05 02:53:19.017215 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:19,018 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,099 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:19,101 - root - DEBUG - 2025-02-05 02:53:19.101048 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:19,102 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,189 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:19,191 - root - DEBUG - 2025-02-05 02:53:19.191315 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:19,192 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,279 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:19,280 - root - DEBUG - 2025-02-05 02:53:19.280683 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:19,281 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,364 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:19,366 - root - DEBUG - 2025-02-05 02:53:19.366381 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:19,367 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,448 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:19,450 - root - DEBUG - 2025-02-05 02:53:19.450314 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:19,451 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,533 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:19,535 - root - DEBUG - 2025-02-05 02:53:19.535336 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:19,536 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,621 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:19,624 - root - DEBUG - 2025-02-05 02:53:19.624011 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:19,625 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,709 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:19,712 - root - DEBUG - 2025-02-05 02:53:19.711780 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:19,712 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:19,798 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:19,801 - root - DEBUG - 2025-02-05 02:53:19.801283 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:20,804 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:20,893 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:20,895 - root - DEBUG - 2025-02-05 02:53:20.895474 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:20,896 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:20,994 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:20,996 - root - DEBUG - 2025-02-05 02:53:20.996620 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:20,996 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,091 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:21,092 - root - DEBUG - 2025-02-05 02:53:21.092202 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:21,093 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,173 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:21,175 - root - DEBUG - 2025-02-05 02:53:21.175308 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:21,176 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,265 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:21,267 - root - DEBUG - 2025-02-05 02:53:21.266342 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:21,267 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,354 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:21,356 - root - DEBUG - 2025-02-05 02:53:21.356594 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:21,356 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,443 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:21,445 - root - DEBUG - 2025-02-05 02:53:21.445501 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:21,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,531 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:21,532 - root - DEBUG - 2025-02-05 02:53:21.532427 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:21,533 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,615 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:21,617 - root - DEBUG - 2025-02-05 02:53:21.617854 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:21,618 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,689 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:21,690 - root - DEBUG - 2025-02-05 02:53:21.690024 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:21,691 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,770 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:21,772 - root - DEBUG - 2025-02-05 02:53:21.772015 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:21,773 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,859 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:21,861 - root - DEBUG - 2025-02-05 02:53:21.861854 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:21,862 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:21,944 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:21,946 - root - DEBUG - 2025-02-05 02:53:21.946044 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:21,947 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:22,027 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:22,029 - root - DEBUG - 2025-02-05 02:53:22.029278 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:23,031 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,117 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:23,119 - root - DEBUG - 2025-02-05 02:53:23.119068 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:23,120 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,194 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:23,195 - root - DEBUG - 2025-02-05 02:53:23.195645 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:23,197 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,288 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:23,290 - root - DEBUG - 2025-02-05 02:53:23.290249 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:23,291 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,380 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:23,381 - root - DEBUG - 2025-02-05 02:53:23.381276 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:23,382 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,471 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:23,473 - root - DEBUG - 2025-02-05 02:53:23.472095 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:23,474 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,555 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:23,557 - root - DEBUG - 2025-02-05 02:53:23.557336 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:23,558 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,630 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:23,633 - root - DEBUG - 2025-02-05 02:53:23.633393 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:23,634 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,718 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:23,721 - root - DEBUG - 2025-02-05 02:53:23.721115 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:23,722 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,816 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:23,818 - root - DEBUG - 2025-02-05 02:53:23.818620 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:23,820 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:23,909 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:23,910 - root - DEBUG - 2025-02-05 02:53:23.910982 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:23,912 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:24,005 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:24,009 - root - DEBUG - 2025-02-05 02:53:24.009031 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:24,011 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:24,106 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:24,108 - root - DEBUG - 2025-02-05 02:53:24.108755 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:24,109 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:24,197 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:24,199 - root - DEBUG - 2025-02-05 02:53:24.199556 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:24,200 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:24,294 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:24,296 - root - DEBUG - 2025-02-05 02:53:24.296876 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:25,299 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,379 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:25,380 - root - DEBUG - 2025-02-05 02:53:25.380933 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:25,381 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,466 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:25,468 - root - DEBUG - 2025-02-05 02:53:25.468324 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:25,469 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,548 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:25,550 - root - DEBUG - 2025-02-05 02:53:25.550501 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:25,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,645 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:25,646 - root - DEBUG - 2025-02-05 02:53:25.646579 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:25,648 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,734 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:25,737 - root - DEBUG - 2025-02-05 02:53:25.737019 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:25,738 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,827 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:25,829 - root - DEBUG - 2025-02-05 02:53:25.829717 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:25,830 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:25,921 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:25,922 - root - DEBUG - 2025-02-05 02:53:25.922202 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:25,923 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,000 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:26,002 - root - DEBUG - 2025-02-05 02:53:26.002657 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:26,003 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,078 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:26,080 - root - DEBUG - 2025-02-05 02:53:26.080152 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:26,081 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,167 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:26,168 - root - DEBUG - 2025-02-05 02:53:26.168315 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:26,169 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,263 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:26,265 - root - DEBUG - 2025-02-05 02:53:26.265323 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:26,266 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,356 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:26,358 - root - DEBUG - 2025-02-05 02:53:26.358265 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:26,359 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,448 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:26,449 - root - DEBUG - 2025-02-05 02:53:26.449857 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:26,450 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:26,530 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:26,532 - root - DEBUG - 2025-02-05 02:53:26.532741 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:27,535 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:27,628 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:27,630 - root - DEBUG - 2025-02-05 02:53:27.630492 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:27,631 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:27,713 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:27,715 - root - DEBUG - 2025-02-05 02:53:27.715490 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:27,716 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:27,803 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:27,805 - root - DEBUG - 2025-02-05 02:53:27.805460 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:27,806 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:27,896 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:27,897 - root - DEBUG - 2025-02-05 02:53:27.897189 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:27,898 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:27,987 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:27,989 - root - DEBUG - 2025-02-05 02:53:27.989188 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:27,990 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,075 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:28,076 - root - DEBUG - 2025-02-05 02:53:28.076919 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:28,078 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,153 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:28,155 - root - DEBUG - 2025-02-05 02:53:28.155777 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:28,156 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,241 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:28,243 - root - DEBUG - 2025-02-05 02:53:28.243117 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:28,244 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,337 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:28,339 - root - DEBUG - 2025-02-05 02:53:28.339704 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:28,340 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,419 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:28,421 - root - DEBUG - 2025-02-05 02:53:28.421132 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:28,422 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,492 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:28,494 - root - DEBUG - 2025-02-05 02:53:28.494737 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:28,495 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,571 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:28,573 - root - DEBUG - 2025-02-05 02:53:28.573501 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:28,574 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,665 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:28,666 - root - DEBUG - 2025-02-05 02:53:28.666609 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:28,668 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:28,752 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:28,755 - root - DEBUG - 2025-02-05 02:53:28.755077 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:29,758 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:29,841 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:29,842 - root - DEBUG - 2025-02-05 02:53:29.842718 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:29,843 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:29,935 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:29,937 - root - DEBUG - 2025-02-05 02:53:29.937001 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:29,937 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,028 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:30,031 - root - DEBUG - 2025-02-05 02:53:30.031103 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:30,032 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,112 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:30,112 - root - DEBUG - 2025-02-05 02:53:30.112809 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:30,114 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,197 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:30,199 - root - DEBUG - 2025-02-05 02:53:30.199785 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:30,200 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,280 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:30,281 - root - DEBUG - 2025-02-05 02:53:30.281808 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:30,282 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,363 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:30,365 - root - DEBUG - 2025-02-05 02:53:30.365191 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:30,366 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,442 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:30,443 - root - DEBUG - 2025-02-05 02:53:30.443889 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:30,445 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,528 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:30,530 - root - DEBUG - 2025-02-05 02:53:30.530962 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:30,531 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,606 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:30,608 - root - DEBUG - 2025-02-05 02:53:30.608210 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:30,609 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,690 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:30,691 - root - DEBUG - 2025-02-05 02:53:30.691863 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:30,693 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,775 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:30,777 - root - DEBUG - 2025-02-05 02:53:30.777438 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:30,777 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,849 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:30,850 - root - DEBUG - 2025-02-05 02:53:30.850575 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:30,851 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:30,939 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:30,940 - root - DEBUG - 2025-02-05 02:53:30.940531 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:31,944 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,030 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:32,032 - root - DEBUG - 2025-02-05 02:53:32.032444 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:32,033 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,122 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:32,125 - root - DEBUG - 2025-02-05 02:53:32.125253 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:32,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,214 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:32,217 - root - DEBUG - 2025-02-05 02:53:32.217327 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:32,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,303 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:32,305 - root - DEBUG - 2025-02-05 02:53:32.305462 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:32,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,383 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:32,384 - root - DEBUG - 2025-02-05 02:53:32.384254 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:32,385 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,476 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:32,477 - root - DEBUG - 2025-02-05 02:53:32.477269 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:32,478 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,565 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:32,566 - root - DEBUG - 2025-02-05 02:53:32.566042 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:32,567 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,657 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:32,660 - root - DEBUG - 2025-02-05 02:53:32.660054 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:32,661 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,741 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:32,742 - root - DEBUG - 2025-02-05 02:53:32.742588 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:32,743 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,826 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:32,828 - root - DEBUG - 2025-02-05 02:53:32.828941 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:32,829 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,909 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:32,910 - root - DEBUG - 2025-02-05 02:53:32.910710 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:32,911 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:32,995 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:32,997 - root - DEBUG - 2025-02-05 02:53:32.997734 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:32,998 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:33,093 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:33,094 - root - DEBUG - 2025-02-05 02:53:33.094888 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:33,095 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:33,177 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:33,178 - root - DEBUG - 2025-02-05 02:53:33.178934 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:34,181 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,265 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:34,265 - root - DEBUG - 2025-02-05 02:53:34.265958 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:34,267 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,354 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:34,355 - root - DEBUG - 2025-02-05 02:53:34.355959 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:34,356 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,429 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:34,431 - root - DEBUG - 2025-02-05 02:53:34.431799 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:34,432 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,518 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:34,521 - root - DEBUG - 2025-02-05 02:53:34.521231 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:34,522 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,611 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:34,612 - root - DEBUG - 2025-02-05 02:53:34.612842 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:34,613 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,704 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:34,705 - root - DEBUG - 2025-02-05 02:53:34.705278 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:34,706 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,800 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:34,802 - root - DEBUG - 2025-02-05 02:53:34.802981 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:34,802 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,894 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:34,896 - root - DEBUG - 2025-02-05 02:53:34.896398 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:34,897 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:34,985 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:34,987 - root - DEBUG - 2025-02-05 02:53:34.987370 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:34,987 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:35,073 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:35,075 - root - DEBUG - 2025-02-05 02:53:35.075794 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:35,076 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:35,168 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:35,169 - root - DEBUG - 2025-02-05 02:53:35.169551 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:35,170 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:35,264 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:35,266 - root - DEBUG - 2025-02-05 02:53:35.266326 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:35,267 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:35,353 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:35,355 - root - DEBUG - 2025-02-05 02:53:35.354468 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:35,355 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:35,434 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:35,435 - root - DEBUG - 2025-02-05 02:53:35.435839 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:36,440 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:36,530 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:36,531 - root - DEBUG - 2025-02-05 02:53:36.531923 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:36,532 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:36,610 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:36,611 - root - DEBUG - 2025-02-05 02:53:36.611880 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:36,612 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:36,705 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:36,708 - root - DEBUG - 2025-02-05 02:53:36.708589 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:36,709 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:36,789 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:36,791 - root - DEBUG - 2025-02-05 02:53:36.791061 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:36,792 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:36,880 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:36,882 - root - DEBUG - 2025-02-05 02:53:36.882408 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:36,883 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:36,959 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:36,960 - root - DEBUG - 2025-02-05 02:53:36.960182 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:36,961 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,038 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:37,040 - root - DEBUG - 2025-02-05 02:53:37.040570 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:37,041 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,128 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:37,129 - root - DEBUG - 2025-02-05 02:53:37.129856 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:37,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,212 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:37,213 - root - DEBUG - 2025-02-05 02:53:37.213630 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:37,214 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,293 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:37,294 - root - DEBUG - 2025-02-05 02:53:37.294722 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:37,296 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,368 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:37,370 - root - DEBUG - 2025-02-05 02:53:37.370780 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:37,371 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,464 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:37,466 - root - DEBUG - 2025-02-05 02:53:37.466433 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:37,467 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,548 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:37,548 - root - DEBUG - 2025-02-05 02:53:37.548588 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:37,550 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:37,637 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:37,639 - root - DEBUG - 2025-02-05 02:53:37.638564 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:38,642 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:38,731 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:38,732 - root - DEBUG - 2025-02-05 02:53:38.732398 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:38,733 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:38,821 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:38,823 - root - DEBUG - 2025-02-05 02:53:38.823076 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:38,824 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:38,905 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:38,906 - root - DEBUG - 2025-02-05 02:53:38.906733 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:38,907 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:38,986 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:38,987 - root - DEBUG - 2025-02-05 02:53:38.987957 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:38,988 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,088 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:39,090 - root - DEBUG - 2025-02-05 02:53:39.090480 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:39,091 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,168 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:39,169 - root - DEBUG - 2025-02-05 02:53:39.169742 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:39,170 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,251 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:39,253 - root - DEBUG - 2025-02-05 02:53:39.252594 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:39,253 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,343 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:39,345 - root - DEBUG - 2025-02-05 02:53:39.345178 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:39,346 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,431 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:39,433 - root - DEBUG - 2025-02-05 02:53:39.433205 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:39,434 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,514 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:39,515 - root - DEBUG - 2025-02-05 02:53:39.515057 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:39,516 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,607 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:39,609 - root - DEBUG - 2025-02-05 02:53:39.609580 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:39,610 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,700 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:39,703 - root - DEBUG - 2025-02-05 02:53:39.703016 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:39,703 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,783 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:39,783 - root - DEBUG - 2025-02-05 02:53:39.783788 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:39,785 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:39,875 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:39,876 - root - DEBUG - 2025-02-05 02:53:39.876403 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:40,880 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:40,963 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:40,965 - root - DEBUG - 2025-02-05 02:53:40.965673 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:40,966 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,039 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:41,041 - root - DEBUG - 2025-02-05 02:53:41.041260 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:41,042 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,128 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:41,129 - root - DEBUG - 2025-02-05 02:53:41.129943 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:41,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,213 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:41,214 - root - DEBUG - 2025-02-05 02:53:41.214116 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:41,215 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,301 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:41,302 - root - DEBUG - 2025-02-05 02:53:41.302221 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:41,303 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,385 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:41,387 - root - DEBUG - 2025-02-05 02:53:41.387003 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:41,388 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,481 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:41,482 - root - DEBUG - 2025-02-05 02:53:41.482218 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:41,483 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,565 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:41,566 - root - DEBUG - 2025-02-05 02:53:41.566687 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:41,568 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,654 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:41,657 - root - DEBUG - 2025-02-05 02:53:41.657652 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:41,658 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,734 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:41,736 - root - DEBUG - 2025-02-05 02:53:41.736247 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:41,736 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,829 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:41,830 - root - DEBUG - 2025-02-05 02:53:41.830146 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:41,831 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,912 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:41,913 - root - DEBUG - 2025-02-05 02:53:41.913077 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:41,914 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:41,993 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:41,995 - root - DEBUG - 2025-02-05 02:53:41.995049 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:41,996 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:42,076 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:42,077 - root - DEBUG - 2025-02-05 02:53:42.077660 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:43,080 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,170 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:43,172 - root - DEBUG - 2025-02-05 02:53:43.172157 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:43,173 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,263 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:43,265 - root - DEBUG - 2025-02-05 02:53:43.265294 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:43,266 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,359 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:43,362 - root - DEBUG - 2025-02-05 02:53:43.362373 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:43,363 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,456 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:43,458 - root - DEBUG - 2025-02-05 02:53:43.458267 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:43,459 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,531 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:43,533 - root - DEBUG - 2025-02-05 02:53:43.533695 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:43,534 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,614 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:43,616 - root - DEBUG - 2025-02-05 02:53:43.616569 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:43,617 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,700 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:43,701 - root - DEBUG - 2025-02-05 02:53:43.701184 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:43,702 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,794 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:43,796 - root - DEBUG - 2025-02-05 02:53:43.796248 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:43,797 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,874 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:43,877 - root - DEBUG - 2025-02-05 02:53:43.877110 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:43,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:43,958 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:43,959 - root - DEBUG - 2025-02-05 02:53:43.959807 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:43,960 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:44,053 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:44,054 - root - DEBUG - 2025-02-05 02:53:44.054986 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:44,056 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:44,128 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:44,129 - root - DEBUG - 2025-02-05 02:53:44.129113 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:44,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:44,215 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:44,216 - root - DEBUG - 2025-02-05 02:53:44.216965 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:44,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:44,298 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:44,300 - root - DEBUG - 2025-02-05 02:53:44.300148 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:45,303 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,394 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:45,395 - root - DEBUG - 2025-02-05 02:53:45.395074 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:45,396 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,492 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:45,494 - root - DEBUG - 2025-02-05 02:53:45.493105 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:45,494 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,579 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:45,581 - root - DEBUG - 2025-02-05 02:53:45.581780 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:45,582 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,671 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:45,672 - root - DEBUG - 2025-02-05 02:53:45.672195 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:45,673 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,758 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:45,760 - root - DEBUG - 2025-02-05 02:53:45.760228 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:45,761 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,843 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:45,846 - root - DEBUG - 2025-02-05 02:53:45.846105 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:45,846 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:45,934 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:45,935 - root - DEBUG - 2025-02-05 02:53:45.935882 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:45,936 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,033 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:46,034 - root - DEBUG - 2025-02-05 02:53:46.034109 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:46,035 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,121 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:46,124 - root - DEBUG - 2025-02-05 02:53:46.124273 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:46,125 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,221 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:46,222 - root - DEBUG - 2025-02-05 02:53:46.222692 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:46,223 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,308 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:46,310 - root - DEBUG - 2025-02-05 02:53:46.310145 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:46,311 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,388 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:46,390 - root - DEBUG - 2025-02-05 02:53:46.390216 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:46,390 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,484 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:46,486 - root - DEBUG - 2025-02-05 02:53:46.486016 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:46,487 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:46,571 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:46,574 - root - DEBUG - 2025-02-05 02:53:46.574476 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:47,577 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:47,667 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:47,669 - root - DEBUG - 2025-02-05 02:53:47.669848 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:47,670 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:47,752 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:47,754 - root - DEBUG - 2025-02-05 02:53:47.754409 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:47,755 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:47,833 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:47,834 - root - DEBUG - 2025-02-05 02:53:47.834820 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:47,836 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:47,905 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:47,907 - root - DEBUG - 2025-02-05 02:53:47.907523 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:47,908 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:47,981 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:47,982 - root - DEBUG - 2025-02-05 02:53:47.982263 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:47,983 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,065 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:48,067 - root - DEBUG - 2025-02-05 02:53:48.067267 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:48,068 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,156 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:48,157 - root - DEBUG - 2025-02-05 02:53:48.157886 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:48,158 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,233 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:48,234 - root - DEBUG - 2025-02-05 02:53:48.234745 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:48,236 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,313 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:48,315 - root - DEBUG - 2025-02-05 02:53:48.315479 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:48,316 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,404 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:48,407 - root - DEBUG - 2025-02-05 02:53:48.407136 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:48,407 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,501 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:48,504 - root - DEBUG - 2025-02-05 02:53:48.504099 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:48,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,590 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:48,591 - root - DEBUG - 2025-02-05 02:53:48.591121 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:48,592 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,680 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:48,681 - root - DEBUG - 2025-02-05 02:53:48.681335 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:48,682 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:48,772 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:48,774 - root - DEBUG - 2025-02-05 02:53:48.774233 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:49,776 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:49,868 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:49,869 - root - DEBUG - 2025-02-05 02:53:49.869098 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:49,870 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:49,947 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:49,950 - root - DEBUG - 2025-02-05 02:53:49.950027 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:49,951 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,039 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:50,040 - root - DEBUG - 2025-02-05 02:53:50.040061 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:50,041 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,124 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:50,127 - root - DEBUG - 2025-02-05 02:53:50.127105 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:50,128 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,218 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:50,220 - root - DEBUG - 2025-02-05 02:53:50.220651 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:50,221 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,310 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:50,312 - root - DEBUG - 2025-02-05 02:53:50.312872 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:50,313 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,395 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:50,397 - root - DEBUG - 2025-02-05 02:53:50.397199 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:50,398 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,484 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:50,486 - root - DEBUG - 2025-02-05 02:53:50.486343 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:50,487 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,567 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:50,570 - root - DEBUG - 2025-02-05 02:53:50.570465 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:50,571 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,659 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:50,660 - root - DEBUG - 2025-02-05 02:53:50.660132 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:50,661 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,759 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:50,761 - root - DEBUG - 2025-02-05 02:53:50.761338 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:50,762 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,843 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:50,845 - root - DEBUG - 2025-02-05 02:53:50.845823 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:50,846 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:50,924 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:50,926 - root - DEBUG - 2025-02-05 02:53:50.926563 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:50,928 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:51,018 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:51,020 - root - DEBUG - 2025-02-05 02:53:51.020293 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:52,024 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,111 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:52,113 - root - DEBUG - 2025-02-05 02:53:52.111997 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:52,114 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,213 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:52,215 - root - DEBUG - 2025-02-05 02:53:52.215537 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:52,216 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,303 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:52,305 - root - DEBUG - 2025-02-05 02:53:52.305220 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:52,305 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,394 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:52,395 - root - DEBUG - 2025-02-05 02:53:52.395972 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:52,396 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,477 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:52,479 - root - DEBUG - 2025-02-05 02:53:52.479192 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:52,480 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,572 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:52,573 - root - DEBUG - 2025-02-05 02:53:52.573548 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:52,575 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,663 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:52,664 - root - DEBUG - 2025-02-05 02:53:52.664401 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:52,665 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,740 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:52,741 - root - DEBUG - 2025-02-05 02:53:52.741250 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:52,742 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,823 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:52,825 - root - DEBUG - 2025-02-05 02:53:52.825156 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:52,826 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,911 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:52,912 - root - DEBUG - 2025-02-05 02:53:52.912994 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:52,914 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:52,997 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:52,999 - root - DEBUG - 2025-02-05 02:53:52.999213 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:53,000 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:53,093 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:53,095 - root - DEBUG - 2025-02-05 02:53:53.095453 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:53,096 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:53,190 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:53,192 - root - DEBUG - 2025-02-05 02:53:53.192342 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:53,193 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:53,271 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:53,272 - root - DEBUG - 2025-02-05 02:53:53.272525 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:54,275 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,353 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:54,354 - root - DEBUG - 2025-02-05 02:53:54.354962 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:54,356 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,442 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:54,443 - root - DEBUG - 2025-02-05 02:53:54.443910 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:54,444 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,531 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:54,533 - root - DEBUG - 2025-02-05 02:53:54.533860 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:54,535 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,635 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:54,636 - root - DEBUG - 2025-02-05 02:53:54.636272 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:54,637 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,715 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:54,716 - root - DEBUG - 2025-02-05 02:53:54.716311 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:54,717 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,801 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:54,803 - root - DEBUG - 2025-02-05 02:53:54.803095 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:54,804 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,890 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:54,892 - root - DEBUG - 2025-02-05 02:53:54.892216 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:54,893 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:54,974 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:54,976 - root - DEBUG - 2025-02-05 02:53:54.976523 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:54,977 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:55,062 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:55,063 - root - DEBUG - 2025-02-05 02:53:55.063524 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:55,065 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:55,145 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:55,147 - root - DEBUG - 2025-02-05 02:53:55.147998 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:55,149 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:55,238 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:55,240 - root - DEBUG - 2025-02-05 02:53:55.240376 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:55,241 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:55,325 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:55,327 - root - DEBUG - 2025-02-05 02:53:55.327628 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:55,327 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:55,412 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:55,413 - root - DEBUG - 2025-02-05 02:53:55.413621 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:55,415 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:55,506 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:55,508 - root - DEBUG - 2025-02-05 02:53:55.508126 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:56,511 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:56,591 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:56,593 - root - DEBUG - 2025-02-05 02:53:56.593245 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:56,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:56,689 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:56,691 - root - DEBUG - 2025-02-05 02:53:56.691495 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:56,692 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:56,774 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:56,776 - root - DEBUG - 2025-02-05 02:53:56.776136 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:56,777 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:56,855 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:56,857 - root - DEBUG - 2025-02-05 02:53:56.857991 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:56,859 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:56,942 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:56,945 - root - DEBUG - 2025-02-05 02:53:56.945058 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:56,946 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,032 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:57,034 - root - DEBUG - 2025-02-05 02:53:57.034580 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:57,036 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,119 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:57,121 - root - DEBUG - 2025-02-05 02:53:57.121207 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:57,122 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,210 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:57,212 - root - DEBUG - 2025-02-05 02:53:57.212670 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:57,213 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,295 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:57,296 - root - DEBUG - 2025-02-05 02:53:57.296869 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:57,297 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,382 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:57,383 - root - DEBUG - 2025-02-05 02:53:57.383351 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:57,385 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,471 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:57,472 - root - DEBUG - 2025-02-05 02:53:57.472429 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:57,473 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,549 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:57,551 - root - DEBUG - 2025-02-05 02:53:57.551262 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:57,552 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,634 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:57,636 - root - DEBUG - 2025-02-05 02:53:57.636348 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:57,637 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:57,712 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:57,715 - root - DEBUG - 2025-02-05 02:53:57.715517 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:53:58,718 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:58,803 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:53:58,805 - root - DEBUG - 2025-02-05 02:53:58.805258 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:53:58,806 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:58,885 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:53:58,887 - root - DEBUG - 2025-02-05 02:53:58.887486 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:53:58,888 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:58,972 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:53:58,974 - root - DEBUG - 2025-02-05 02:53:58.974676 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:53:58,975 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,054 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:53:59,055 - root - DEBUG - 2025-02-05 02:53:59.055644 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:53:59,056 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,135 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:53:59,136 - root - DEBUG - 2025-02-05 02:53:59.136384 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:53:59,137 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,232 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:53:59,234 - root - DEBUG - 2025-02-05 02:53:59.234269 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:53:59,235 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,330 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:53:59,332 - root - DEBUG - 2025-02-05 02:53:59.332439 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:53:59,333 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,427 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:53:59,429 - root - DEBUG - 2025-02-05 02:53:59.429304 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:53:59,429 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,517 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:53:59,520 - root - DEBUG - 2025-02-05 02:53:59.520052 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:53:59,521 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,600 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:53:59,602 - root - DEBUG - 2025-02-05 02:53:59.602560 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:53:59,603 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,685 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:53:59,687 - root - DEBUG - 2025-02-05 02:53:59.687187 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:53:59,688 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,774 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:53:59,775 - root - DEBUG - 2025-02-05 02:53:59.775404 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:53:59,776 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,875 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:53:59,877 - root - DEBUG - 2025-02-05 02:53:59.877033 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:53:59,877 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:53:59,967 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:53:59,970 - root - DEBUG - 2025-02-05 02:53:59.969676 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:54:00,973 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,052 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:54:01,055 - root - DEBUG - 2025-02-05 02:54:01.055103 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:54:01,056 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,144 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:54:01,146 - root - DEBUG - 2025-02-05 02:54:01.146269 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:54:01,147 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,223 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:54:01,225 - root - DEBUG - 2025-02-05 02:54:01.225994 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:54:01,227 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,326 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:54:01,327 - root - DEBUG - 2025-02-05 02:54:01.327812 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:54:01,329 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,424 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:54:01,427 - root - DEBUG - 2025-02-05 02:54:01.427939 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:54:01,428 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,516 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:54:01,519 - root - DEBUG - 2025-02-05 02:54:01.519006 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:54:01,520 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,616 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:54:01,618 - root - DEBUG - 2025-02-05 02:54:01.618341 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:54:01,619 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,706 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:54:01,708 - root - DEBUG - 2025-02-05 02:54:01.708403 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:54:01,709 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,790 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:54:01,792 - root - DEBUG - 2025-02-05 02:54:01.792548 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:54:01,792 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,881 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:54:01,883 - root - DEBUG - 2025-02-05 02:54:01.883363 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:54:01,884 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:01,965 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:54:01,967 - root - DEBUG - 2025-02-05 02:54:01.967448 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:54:01,968 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:02,062 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:54:02,065 - root - DEBUG - 2025-02-05 02:54:02.065595 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:54:02,066 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:02,157 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:54:02,159 - root - DEBUG - 2025-02-05 02:54:02.159414 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:54:02,160 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:02,246 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:54:02,248 - root - DEBUG - 2025-02-05 02:54:02.248524 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:54:03,251 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,346 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:54:03,348 - root - DEBUG - 2025-02-05 02:54:03.348929 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:54:03,349 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,421 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:54:03,422 - root - DEBUG - 2025-02-05 02:54:03.422377 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:54:03,423 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,501 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:54:03,503 - root - DEBUG - 2025-02-05 02:54:03.503087 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:54:03,504 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,599 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:54:03,602 - root - DEBUG - 2025-02-05 02:54:03.602576 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:54:03,603 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,696 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:54:03,698 - root - DEBUG - 2025-02-05 02:54:03.698227 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:54:03,699 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,785 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:54:03,786 - root - DEBUG - 2025-02-05 02:54:03.786952 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:54:03,787 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,866 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:54:03,868 - root - DEBUG - 2025-02-05 02:54:03.868731 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:54:03,869 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:03,955 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:54:03,957 - root - DEBUG - 2025-02-05 02:54:03.957846 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:54:03,958 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:04,056 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:54:04,057 - root - DEBUG - 2025-02-05 02:54:04.057679 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:54:04,058 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:04,140 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:54:04,142 - root - DEBUG - 2025-02-05 02:54:04.142995 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:54:04,144 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:04,235 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:54:04,237 - root - DEBUG - 2025-02-05 02:54:04.237614 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:54:04,238 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:04,332 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:54:04,333 - root - DEBUG - 2025-02-05 02:54:04.333964 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:54:04,334 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:04,419 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:54:04,421 - root - DEBUG - 2025-02-05 02:54:04.421742 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:54:04,422 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:04,500 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:54:04,502 - root - DEBUG - 2025-02-05 02:54:04.502566 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:54:05,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:05,600 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:54:05,603 - root - DEBUG - 2025-02-05 02:54:05.603000 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:54:05,603 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:05,695 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:54:05,696 - root - DEBUG - 2025-02-05 02:54:05.696652 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:54:05,697 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:05,785 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:54:05,786 - root - DEBUG - 2025-02-05 02:54:05.786666 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:54:05,787 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:05,875 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:54:05,877 - root - DEBUG - 2025-02-05 02:54:05.877516 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:54:05,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:05,961 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:54:05,964 - root - DEBUG - 2025-02-05 02:54:05.964207 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:54:05,965 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,049 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:54:06,051 - root - DEBUG - 2025-02-05 02:54:06.051123 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:54:06,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,137 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:54:06,139 - root - DEBUG - 2025-02-05 02:54:06.139689 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:54:06,140 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,231 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:54:06,232 - root - DEBUG - 2025-02-05 02:54:06.232810 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:54:06,234 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,313 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:54:06,315 - root - DEBUG - 2025-02-05 02:54:06.315771 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:54:06,316 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,402 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:54:06,404 - root - DEBUG - 2025-02-05 02:54:06.404513 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:54:06,405 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,501 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:54:06,502 - root - DEBUG - 2025-02-05 02:54:06.502728 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:54:06,504 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,591 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:54:06,593 - root - DEBUG - 2025-02-05 02:54:06.593549 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:54:06,594 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,670 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:54:06,672 - root - DEBUG - 2025-02-05 02:54:06.672738 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:54:06,673 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:06,756 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:54:06,758 - root - DEBUG - 2025-02-05 02:54:06.758515 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:54:07,760 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:07,836 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002599, HTTP/1.1" 200 64
+2025-02-05 02:54:07,838 - root - DEBUG - 2025-02-05 02:54:07.838002 - 002599 current: 7.49 - MA5: 7.66
+2025-02-05 02:54:07,839 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:07,926 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002642, HTTP/1.1" 200 64
+2025-02-05 02:54:07,928 - root - DEBUG - 2025-02-05 02:54:07.928502 - 002642 current: 7.41 - MA5: 7.22
+2025-02-05 02:54:07,929 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,002 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002660, HTTP/1.1" 200 65
+2025-02-05 02:54:08,004 - root - DEBUG - 2025-02-05 02:54:08.004744 - 002660 current: 10.54 - MA5: 10.70
+2025-02-05 02:54:08,005 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,087 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh605338, HTTP/1.1" 200 65
+2025-02-05 02:54:08,089 - root - DEBUG - 2025-02-05 02:54:08.089075 - 605338 current: 18.27 - MA5: 17.54
+2025-02-05 02:54:08,090 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,167 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002364, HTTP/1.1" 200 66
+2025-02-05 02:54:08,169 - root - DEBUG - 2025-02-05 02:54:08.169416 - 002364 current: 13.45 - MA5: 13.69
+2025-02-05 02:54:08,170 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,260 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600410, HTTP/1.1" 200 66
+2025-02-05 02:54:08,262 - root - DEBUG - 2025-02-05 02:54:08.262842 - 600410 current: 9.00 - MA5: 8.55
+2025-02-05 02:54:08,263 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,352 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002861, HTTP/1.1" 200 65
+2025-02-05 02:54:08,354 - root - DEBUG - 2025-02-05 02:54:08.354708 - 002861 current: 16.61 - MA5: 16.53
+2025-02-05 02:54:08,355 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,443 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603859, HTTP/1.1" 200 65
+2025-02-05 02:54:08,445 - root - DEBUG - 2025-02-05 02:54:08.445207 - 603859 current: 36.03 - MA5: 34.55
+2025-02-05 02:54:08,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,530 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz003040, HTTP/1.1" 200 61
+2025-02-05 02:54:08,533 - root - DEBUG - 2025-02-05 02:54:08.533520 - 003040 current: 14.28 - MA5: 13.74
+2025-02-05 02:54:08,535 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,622 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz001309, HTTP/1.1" 200 63
+2025-02-05 02:54:08,624 - root - DEBUG - 2025-02-05 02:54:08.624774 - 001309 current: 104.39 - MA5: 99.80
+2025-02-05 02:54:08,625 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,713 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh603758, HTTP/1.1" 200 66
+2025-02-05 02:54:08,715 - root - DEBUG - 2025-02-05 02:54:08.715991 - 603758 current: 9.72 - MA5: 9.46
+2025-02-05 02:54:08,716 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,802 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sh600255, HTTP/1.1" 200 68
+2025-02-05 02:54:08,804 - root - DEBUG - 2025-02-05 02:54:08.804930 - 600255 current: 3.99 - MA5: 3.93
+2025-02-05 02:54:08,805 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,898 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz002362, HTTP/1.1" 200 63
+2025-02-05 02:54:08,900 - root - DEBUG - 2025-02-05 02:54:08.900889 - 002362 current: 24.90 - MA5: 23.93
+2025-02-05 02:54:08,901 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hq.sinajs.cn:443
+2025-02-05 02:54:08,985 - urllib3.connectionpool - DEBUG - https://hq.sinajs.cn:443 "GET /list=s_sz000977, HTTP/1.1" 200 67
+2025-02-05 02:54:08,986 - root - DEBUG - 2025-02-05 02:54:08.986184 - 000977 current: 51.94 - MA5: 52.31
+2025-02-05 02:54:09,241 - root - INFO - 
+[INFO] 手动结束观察。
