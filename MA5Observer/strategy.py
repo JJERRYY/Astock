@@ -20,6 +20,29 @@ class PriceRangeStrategy:
             return None
         return np.mean(close_list)
 
+    def calc_open_price(self, close_list):
+        """
+        计算目标开盘价格：使得当天价格落入MA5区间的最低价格
+
+        参数：
+            close_list：列表，包含过去四天的收盘价（顺序为最早到最近）
+                      （注意：此处不含当天价格x，因为x是需要计算的目标）
+
+        计算逻辑：
+            当天的5日均线（MA5）= (C1 + C2 + C3 + C4 + x) / 5.
+            要使得价格 x 恰好“落入”MA5区间，我们取边界情况 x = MA5，
+            则有 x = (C1 + C2 + C3 + C4 + x) / 5.
+            解得：4x = C1 + C2 + C3 + C4，即 x = (C1+C2+C3+C4) / 4.
+
+        返回：
+            x 的最小值，使得当天价格刚好触及MA5。
+        """
+        if len(close_list) < 4:
+            raise ValueError("需要至少4天的收盘价")
+        sum_four = sum(close_list[:4])
+        min_x = sum_four / 4.0
+        return min_x
+
     def is_in_range(self, current_price, ma5):
         """
         判断当前价格是否位于 [ma5, ma5*(1 + tolerance)] 区间

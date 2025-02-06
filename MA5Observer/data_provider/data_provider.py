@@ -54,10 +54,6 @@ class AdataProvider:
         return current_price, stock_name
 
 
-
-
-
-
 if __name__ == '__main__':
     # # 测试数据提供者
     data_provider = AdataProvider()

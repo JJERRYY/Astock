@@ -1,7 +1,7 @@
 import sys
 import threading
 import time
-from datetime import datetime, time as dtime
+from datetime import datetime, time as dtime, timedelta
 from loguru import logger
 import pandas as pd
 
@@ -77,13 +77,22 @@ def main():
     logger.add("app.log", rotation="1 week", level="DEBUG", retention="10 days")  # Log to file
     logger.add(sys.stdout, level="INFO")  # Print log to stdout for important info
 
+    # 获取今天的日期，再获取今天日期往前4天的交易日期
+    today = datetime.now().strftime("%Y-%m-%d")
+    trade_calendar = adata.stock.info.trade_calendar(year=int(today[:4]))
+    # 只取交易日的日期'trade_status'==1
+    trade_dates = trade_calendar[trade_calendar["trade_status"] == 1]["trade_date"].astype(str).tolist()
+    today_index = trade_dates.index(today)
+    last_4_trade_dates = trade_dates[today_index - 4:today_index]
+
+
     for code in stock_codes:
         df = data_provider.get_history_k_data(code)
         df = df.tail(30).reset_index(drop=True)
 
         df = df.sort_values("trade_date")
-        close_list = df["close"].tolist()
-        last_4_close = close_list[-4:] if len(close_list) >= 4 else close_list
+        last_4_close = df[df["trade_date"].isin(last_4_trade_dates)]["close"].tolist()
+
         historical_data_dict[code] = last_4_close
 
     logger.info("历史数据准备完毕。开始进入观察模式...")
@@ -110,7 +119,7 @@ def main():
                             logger.info(f"[ALERT] {code} {stock_name} 价格 {current_price:.2f} 已进入区间 [{ma5:.2f}, {ma5 * 1.02:.2f}]")
                             msg_title = f"股票 {stock_name} 触发策略"
                             msg_body = f"当前价: {current_price:.2f}, MA5区间: [{ma5:.2f}, {ma5 * 1.02:.2f}]"
-                            logger.info(f"[ALERT] {msg_title} - {msg_body}")
+                            # logger.info(f"[ALERT] {msg_title} - {msg_body}")
                             threading.Thread(
                                 target=notifier.send_notification,
                                 args=(msg_title, msg_body)
@@ -130,17 +139,33 @@ def main():
                 for code in stock_codes:
                     # 获取过去5天的历史数据进行MA5计算
                     df = data_provider.get_history_k_data(code)
+
                     df = df.tail(5).reset_index(drop=True)
                     df = df.sort_values("trade_date")
                     close_list = df["close"].tolist()
 
                     if len(close_list) >= 5:
                         ma5 = strategy.calc_ma5(close_list)
-                        logger.debug(f"{datetime.now()} - {code} - 非交易时间计算 MA5: {ma5:.2f}")
+
+                        # 截取传入最近4天的收盘价，计算开盘价目标区间
+                        open_price = strategy.calc_open_price(close_list[:-1])
+                        logger.info(f"{datetime.now()} - {code} - 非交易时间计算 MA5: {ma5:.2f} - 开盘价大于MA5的最低价格: {open_price:.2f}")
                     else:
                         logger.warning(f"{datetime.now()} - {code} - 数据不足，无法计算MA5")
-
-                time.sleep(60)
+                # 根据交易时间判断到下一次交易日需要睡眠的大概时间，等待到下一个交易时间段
+                now = datetime.now()
+                current_time = now.time()
+                morning_open = dtime(9, 30)
+                afternoon_open = dtime(13, 0)
+                if current_time < morning_open:
+                    next_trade_time = datetime(now.year, now.month, now.day, 9, 30)
+                elif current_time < afternoon_open:
+                    next_trade_time = datetime(now.year, now.month, now.day, 13, 0)
+                else:
+                    next_trade_time = datetime(now.year, now.month, now.day, 9, 30) + timedelta(days=1)
+                sleep_seconds = (next_trade_time - now).seconds
+                logger.info(f"等待到下一个交易时间段，大约需要睡眠 {sleep_seconds} 秒")
+                time.sleep(sleep_seconds-1)
 
     except KeyboardInterrupt:
         logger.info("\n手动结束观察。")
