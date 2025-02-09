@@ -149,9 +149,9 @@ def main():
 
                         # 截取传入最近4天的收盘价，计算开盘价目标区间
                         open_price = strategy.calc_open_price(close_list[:-1])
-                        logger.info(f"{datetime.now()} - {code} - 非交易时间计算 MA5: {ma5:.2f} - 开盘价大于MA5的最低价格: {open_price:.2f}")
+                        logger.info(f"{code} - 非交易时间计算 MA5: {ma5:.2f} - 开盘价大于MA5的最低价格: {open_price:.2f}")
                     else:
-                        logger.warning(f"{datetime.now()} - {code} - 数据不足，无法计算MA5")
+                        logger.warning(f"{code} - 数据不足，无法计算MA5")
                 # 根据交易时间判断到下一次交易日需要睡眠的大概时间，等待到下一个交易时间段
                 now = datetime.now()
                 current_time = now.time()
