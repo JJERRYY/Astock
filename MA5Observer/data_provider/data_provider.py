@@ -10,7 +10,8 @@ class AdataProvider:
     """
 
     def __init__(self):
-        # 根据需要可以在这里初始化一些配置信息
+        self.all_info = self.get_all_code_info()
+
         pass
 
     def get_history_k_data(self, stock_code, start_date=None, end_date=None):
@@ -20,6 +21,23 @@ class AdataProvider:
         - start_date: 开始日期 str，如 '2023-01-01'
         - end_date:   结束日期 str，如 '2023-12-31'
         返回的 DataFrame 至少包含字段: ['trade_date', 'open', 'close', 'high', 'low', ...]
+        #### 返回结果
+| 字段           | 类型    | 说明           |
+|----------------|---------|----------------|
+| stock_code     | string  | 股票代码       |
+| trade_time     | time    | 交易时间       |
+| trade_date     | date    | 交易日期       |
+| open           | decimal | 开盘价(元)     |
+| close          | decimal | 收盘价(元)     |
+| high           | decimal | 最高价(元)     |
+| low            | decimal | 最低价(元)     |
+| volume         | decimal | 成交量(股)     |
+| amount         | decimal | 成交额(元)     |
+| change         | decimal | 涨跌额(元)     |
+| change_pct     | decimal | 涨跌幅(%)      |
+| turnover_ratio | decimal | 换手率(%)      |
+| pre_close      | decimal | 昨收(元)       |
+
         """
         if start_date is None:
             # 默认回溯一段时间，比如1年
@@ -53,6 +71,46 @@ class AdataProvider:
         stock_name = df.loc[0, 'short_name']
         return current_price, stock_name
 
+    def get_trade_calendar(self, year=2025):
+        """
+        获取指定年份的交易日历
+        """
+        return adata.stock.info.trade_calendar(year=year)
+
+    def get_yesterday_trade_date(self):
+        """
+        收盘后，今日即为昨日
+        获取上一个的交易日期
+        """
+        today = pd.Timestamp.now().strftime('%Y-%m-%d')
+        trade_calendar = self.get_trade_calendar()
+        # 判断当天是否是交易日，时间为15:00之后
+        if trade_calendar.loc[trade_calendar['trade_date'] == today, 'trade_status'].values[0] == 1 and  pd.Timestamp.now().hour >= 15:
+            return today
+        # 如果不是交易日，或者是交易日但时间小于15:00
+        else:
+            # 获取比今天小的交易日历中trade_status==1 的第一个作为昨天的日期
+            # 先筛选出比今天小的日期，再筛选出trade_status==1的日期，再取第一个
+            yesterday = trade_calendar[trade_calendar['trade_date'] < today]
+            yesterday = yesterday[yesterday['trade_status'] == 1]
+            yesterday = yesterday['trade_date'].iloc[-1]
+            return yesterday
+    def get_all_code_info(self):
+        """
+        获取所有股票代码信息
+        # 结果示例
+     stock_code short_name exchange   list_date
+0        000001       平安银行       SZ  1991-04-03
+1        000002      万  科Ａ       SZ  1991-01-29
+2        000003      PT金田A       SZ         NaN
+...         ...        ...      ...         ...
+5637     900955       退市海B       SH         NaN
+5638     900956       东贝B股       SH         NaN
+5639     900957       凌云Ｂ股       SH  2000-07-28
+        """
+
+        return adata.stock.info.all_code()
+
 
 if __name__ == '__main__':
     # # 测试数据提供者
@@ -63,5 +121,6 @@ if __name__ == '__main__':
     # 获取实时价格
     price = data_provider.get_realtime_price('000001')
     print(price)
-
+    # 测试获取昨日交易日期
+    yesterday = data_provider.get_yesterday_trade_date()
 

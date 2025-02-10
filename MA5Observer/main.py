@@ -1,10 +1,13 @@
+#main.py
 import sys
 import threading
 import time
 from datetime import datetime, time as dtime, timedelta
+
 from loguru import logger
 import pandas as pd
 
+from MA5Observer.Stock import Stock
 from data_provider.data_provider import AdataProvider
 from strategy import PriceRangeStrategy
 from notifier import Notifier
@@ -19,6 +22,19 @@ def read_observed_stocks(filepath="observe.txt"):
             if code:
                 stock_list.append(code)
     return stock_list
+
+def read_holding_stocks(filepath="holding.txt"):
+    holding_list = []
+
+    data_provider = AdataProvider()
+    with open(filepath, "r", encoding="utf-8") as f:
+        for line in f:
+            code = line.strip()
+            if code:
+                # stock_name = "SomeStockName"  # 你可以通过股票代码获取股票名称
+                holding_list.append(Stock(stock_code=code,data_provider=data_provider,is_held=True))
+    return holding_list
+
 
 
 def is_market_open():
@@ -64,6 +80,7 @@ def is_market_open():
 
 def main():
     stock_codes = read_observed_stocks("observe.txt")
+    holding_stocks = read_holding_stocks("holding.txt")
 
     data_provider = AdataProvider()
     strategy = PriceRangeStrategy(tolerance=0.02)
@@ -100,6 +117,26 @@ def main():
     try:
         while True:
             if is_market_open():
+                # #卖点监控
+                # for stock in holding_stocks:  # 遍历持仓股进行卖点监控
+                #     # 获取当前股票价格并更新
+                #     current_price, stock_name = data_provider.get_realtime_price(stock.stock_code)
+                #     stock.update_current_price(current_price)
+                #
+                #     # 检查卖点条件
+                #     if stock.check_sell_conditions():
+                #         # 卖出提醒
+                #         logger.info(
+                #             f"[SELL ALERT] {stock.stock_code} {stock.stock_name} 满足卖点条件, 当前价格: {current_price}")
+                #         msg_title = f"股票 {stock.stock_name} 卖出提醒"
+                #         msg_body = f"当前价: {current_price:.2f}, 请根据卖点策略执行卖出"
+                #         threading.Thread(
+                #             target=notifier.send_notification,
+                #             args=(msg_title, msg_body)
+                #         ).start()
+
+
+                # 买点监控
                 for code in stock_codes:
                     current_price, stock_name = data_provider.get_realtime_price(code)
                     if current_price is None:
