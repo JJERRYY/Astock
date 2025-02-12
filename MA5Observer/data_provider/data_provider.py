@@ -70,6 +70,19 @@ class AdataProvider:
         current_price = float(df.loc[0, 'price'])
         stock_name = df.loc[0, 'short_name']
         return current_price, stock_name
+    # 获取股票的实时行情
+    def get_realtime(self, stock_code):
+        """
+        获取股票或列表的实时行情
+        # 结果示例
+  stock_code short_name  price change change_pct     volume        amount
+0     000001       平安银行  11.34  -0.06      -0.53   42348200   479720000.0
+1     000795        英洛华   8.10   0.53       7.00  140166000  1098610000.0
+2     872925       锦好医疗  9.530  0.000      0.000     318846   3008578.290
+        :param stock_code:
+        :return:
+        """
+        return adata.stock.market.list_market_current(code_list=[stock_code])
 
     def get_trade_calendar(self, year=2025):
         """

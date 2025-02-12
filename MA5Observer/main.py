@@ -120,23 +120,23 @@ def main():
     try:
         while True:
             if is_market_open():
-                # #卖点监控
-                # for stock in holding_stocks:  # 遍历持仓股进行卖点监控
-                #     # 获取当前股票价格并更新
-                #     current_price, stock_name = data_provider.get_realtime_price(stock.stock_code)
-                #     stock.update_current_price(current_price)
-                #
-                #     # 检查卖点条件
-                #     if stock.check_sell_conditions():
-                #         # 卖出提醒
-                #         logger.info(
-                #             f"[SELL ALERT] {stock.stock_code} {stock.stock_name} 满足卖点条件, 当前价格: {current_price}")
-                #         msg_title = f"股票 {stock.stock_name} 卖出提醒"
-                #         msg_body = f"当前价: {current_price:.2f}, 请根据卖点策略执行卖出"
-                #         threading.Thread(
-                #             target=notifier.send_notification,
-                #             args=(msg_title, msg_body)
-                #         ).start()
+                #卖点监控
+                holding_df = data_provider.get_realtime(holding_stocks)
+                for stock in holding_stocks:  # 遍历持仓股进行卖点监控
+                    stock.update_current(holding_df[holding_df["stock_code"] == stock.stock_code])
+                    # current_price = stock.current_price
+                    sell_flag,sell_msg =  stock.check_sell_conditions()
+                    # 检查卖点条件
+                    if sell_flag:
+                        # 卖出提醒
+                        logger.info(
+                            f"[SELL ALERT] {stock.stock_code} {stock.stock_name} 满足卖点条件, 当前价格: {current_price}, 卖出信号{sell_msg}")
+                        msg_title = f"股票 {stock.stock_name} 卖出提醒"
+                        msg_body = f"当前价: {current_price:.2f}, 卖出信号: {sell_msg}"
+                        threading.Thread(
+                            target=notifier.send_notification,
+                            args=(msg_title, msg_body)
+                        ).start()
 
 
                 # 买点监控
