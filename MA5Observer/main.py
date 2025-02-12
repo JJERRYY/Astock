@@ -16,6 +16,9 @@ import adata
 
 def read_observed_stocks(filepath="observe.txt"):
     stock_list = []
+    # 去重
+
+
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
             code = line.strip()
@@ -83,7 +86,7 @@ def main():
     holding_stocks = read_holding_stocks("holding.txt")
 
     data_provider = AdataProvider()
-    strategy = PriceRangeStrategy(tolerance=0.02)
+    strategy = PriceRangeStrategy(tolerance=0.03)
     notifier = Notifier()
 
     historical_data_dict = {}
@@ -152,7 +155,7 @@ def main():
                     if strategy.is_in_range(current_price, ma5):
                         # 检查是否是5分钟内的重复提醒
                         current_time = datetime.now()
-                        if code not in last_alert_time or (current_time - last_alert_time[code]).seconds > 300:
+                        if code not in last_alert_time or (current_time - last_alert_time[code]).seconds > 10:
                             logger.info(f"[ALERT] {code} {stock_name} 价格 {current_price:.2f} 已进入区间 [{ma5:.2f}, {ma5 * 1.02:.2f}]")
                             msg_title = f"股票 {stock_name} 触发策略"
                             msg_body = f"当前价: {current_price:.2f}, MA5区间: [{ma5:.2f}, {ma5 * 1.02:.2f}]"
