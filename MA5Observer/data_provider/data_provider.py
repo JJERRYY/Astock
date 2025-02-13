@@ -1,7 +1,7 @@
 # data_provider.py
 import adata
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time as dtime
 
 class AdataProvider:
     """
@@ -82,7 +82,7 @@ class AdataProvider:
         :param stock_code:
         :return:
         """
-        return adata.stock.market.list_market_current(code_list=[stock_code])
+        return adata.stock.market.list_market_current(code_list=stock_code)
 
     def get_trade_calendar(self, year=2025):
         """
@@ -124,6 +124,45 @@ class AdataProvider:
 
         return adata.stock.info.all_code()
 
+    def is_market_open(self,):
+        """
+        判断是否在交易时段内(包括盘前竞价)
+        """
+        now = datetime.now()
+        current_time = now.time()
+
+        morning_open = dtime(9, 30)
+        morning_close = dtime(11, 30)
+        afternoon_open = dtime(13, 0)
+        afternoon_close = dtime(15, 0)
+        pre_market_open = dtime(9, 15)  # 盘前竞价开始时间
+
+        # 获取当前年份的交易日历
+        year = now.year
+        trade_calendar = adata.stock.info.trade_calendar(year=year)
+        trade_dates = trade_calendar['trade_date'].astype(str).tolist()
+
+        # 当前日期
+        current_date = now.strftime("%Y-%m-%d")
+
+        # 如果当前日期不是交易日，返回 False
+        if current_date not in trade_dates:
+            return False
+
+        # 盘前竞价
+        if pre_market_open <= current_time <= morning_open:
+            return True
+        # 上午时段
+        if morning_open <= current_time <= morning_close:
+            return True
+        # 下午时段
+        if afternoon_open <= current_time <= afternoon_close:
+            return True
+        # 在盘前竞价和交易时段内
+        if pre_market_open <= current_time <= afternoon_close:
+            return True
+
+        return True
 
 if __name__ == '__main__':
     # # 测试数据提供者

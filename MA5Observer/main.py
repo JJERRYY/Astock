@@ -6,7 +6,9 @@ from datetime import datetime, time as dtime, timedelta
 
 from loguru import logger
 import pandas as pd
-
+import sys
+# 获取父目录,绝对路径
+sys.path.append("..")
 from MA5Observer.Stock import Stock
 from data_provider.data_provider import AdataProvider
 from strategy import PriceRangeStrategy
@@ -15,19 +17,19 @@ import adata
 
 
 def read_observed_stocks(filepath="observe.txt"):
-    stock_list = []
-    # 去重
-
-
+    # 使用 set 去重
+    stock_set = set()
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
             code = line.strip()
             if code:
-                stock_list.append(code)
-    return stock_list
+                stock_set.add(code)  # 将股票代码添加到 set 中
+    return list(stock_set)  # 转换为列表并返回
+
 
 def read_holding_stocks(filepath="holding.txt"):
     holding_list = []
+    holding_codes = []
 
     data_provider = AdataProvider()
     with open(filepath, "r", encoding="utf-8") as f:
@@ -36,9 +38,8 @@ def read_holding_stocks(filepath="holding.txt"):
             if code:
                 # stock_name = "SomeStockName"  # 你可以通过股票代码获取股票名称
                 holding_list.append(Stock(stock_code=code,data_provider=data_provider,is_held=True))
-    return holding_list
-
-
+                holding_codes.append(code)
+    return holding_list, holding_codes
 
 def is_market_open():
     """
@@ -65,25 +66,25 @@ def is_market_open():
     if current_date not in trade_dates:
         return False
 
-    # # 盘前竞价
-    # if pre_market_open <= current_time <= morning_open:
-    #     return True
-    # # 上午时段
-    # if morning_open <= current_time <= morning_close:
-    #     return True
-    # # 下午时段
-    # if afternoon_open <= current_time <= afternoon_close:
-    #     return True
+    # 盘前竞价
+    if pre_market_open <= current_time <= morning_open:
+        return True
+    # 上午时段
+    if morning_open <= current_time <= morning_close:
+        return True
+    # 下午时段
+    if afternoon_open <= current_time <= afternoon_close:
+        return True
     # 在盘前竞价和交易时段内
     if pre_market_open <= current_time <= afternoon_close:
         return True
 
-    return False
+    return True
 
 
 def main():
-    stock_codes = read_observed_stocks("observe.txt")
-    holding_stocks = read_holding_stocks("holding.txt")
+    observe_codes = read_observed_stocks("observe.txt")
+    holding_stocks,holding_codes  = read_holding_stocks("holding.txt")
 
     data_provider = AdataProvider()
     strategy = PriceRangeStrategy(tolerance=0.03)
@@ -106,7 +107,7 @@ def main():
     last_4_trade_dates = trade_dates[today_index - 4:today_index]
 
 
-    for code in stock_codes:
+    for code in observe_codes:
         df = data_provider.get_history_k_data(code)
         df = df.tail(30).reset_index(drop=True)
 
@@ -120,27 +121,27 @@ def main():
     try:
         while True:
             if is_market_open():
-                #卖点监控
-                holding_df = data_provider.get_realtime(holding_stocks)
-                for stock in holding_stocks:  # 遍历持仓股进行卖点监控
-                    stock.update_current(holding_df[holding_df["stock_code"] == stock.stock_code])
-                    # current_price = stock.current_price
-                    sell_flag,sell_msg =  stock.check_sell_conditions()
-                    # 检查卖点条件
-                    if sell_flag:
-                        # 卖出提醒
-                        logger.info(
-                            f"[SELL ALERT] {stock.stock_code} {stock.stock_name} 满足卖点条件, 当前价格: {current_price}, 卖出信号{sell_msg}")
-                        msg_title = f"股票 {stock.stock_name} 卖出提醒"
-                        msg_body = f"当前价: {current_price:.2f}, 卖出信号: {sell_msg}"
-                        threading.Thread(
-                            target=notifier.send_notification,
-                            args=(msg_title, msg_body)
-                        ).start()
+                # #卖点监控
+                # holding_df = data_provider.get_realtime(holding_codes)
+                # for stock in holding_stocks:  # 遍历持仓股进行卖点监控
+                #     stock.update_current(holding_df[holding_df["stock_code"] == stock.stock_code])
+                #     # current_price = stock.current_price
+                #     sell_flag,sell_msg =  stock.check_sell_conditions()
+                #     # 检查卖点条件
+                #     if sell_flag:
+                #         # 卖出提醒
+                #         logger.info(
+                #             f"[SELL ALERT] {stock.stock_code} {stock.stock_name} 满足卖点条件, 当前价格: {current_price}, 卖出信号{sell_msg}")
+                #         msg_title = f"股票 {stock.stock_name} 卖出提醒"
+                #         msg_body = f"当前价: {current_price:.2f}, 卖出信号: {sell_msg}"
+                #         threading.Thread(
+                #             target=notifier.send_notification,
+                #             args=(msg_title, msg_body)
+                #         ).start()
 
 
                 # 买点监控
-                for code in stock_codes:
+                for code in observe_codes:
                     current_price, stock_name = data_provider.get_realtime_price(code)
                     if current_price is None:
                         continue
@@ -176,7 +177,7 @@ def main():
             else:
                 # 非交易时间，计算最近5天的MA5
                 logger.info("现在不在交易时段，等待中...")
-                for code in stock_codes:
+                for code in observe_codes:
                     # 获取过去5天的历史数据进行MA5计算
                     df = data_provider.get_history_k_data(code)
 
@@ -192,6 +193,17 @@ def main():
                         logger.info(f"{code} - 非交易时间计算 MA5: {ma5:.2f} - 开盘价大于MA5的最低价格: {open_price:.2f}")
                     else:
                         logger.warning(f"{code} - 数据不足，无法计算MA5")
+                # 输出持仓股的今天最低价、最高价、开盘价、5日均线
+                for stock in holding_stocks:
+                    stock.update_current(data_provider.get_realtime(stock.stock_code))
+                    # 获取stock.k_day,再用昨日时间筛选获取昨日k线数据,来获取昨日最高价、最低价、开盘价
+                    yesterday_data = stock.k_day[stock.k_day["trade_date"] == stock.yesterday].iloc[0]
+                    highest_price_yesterday = yesterday_data["high"]
+                    open_price_yesterday = yesterday_data["open"]
+                    lowest_price_yesterday = yesterday_data["low"]
+                    logger.info(
+                        f"{stock.stock_code} {stock.stock_name} 昨日最高价: {highest_price_yesterday:.2f}, 昨日最低价: {lowest_price_yesterday:.2f}, 昨日开盘价: {open_price_yesterday:.2f}, 5日均线: {stock.ma5:.2f}")
+
                 # 根据交易时间判断到下一次交易日需要睡眠的大概时间，等待到下一个交易时间段
                 now = datetime.now()
                 current_time = now.time()
