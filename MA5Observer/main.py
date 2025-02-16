@@ -79,7 +79,7 @@ def is_market_open():
     if pre_market_open <= current_time <= afternoon_close:
         return True
 
-    return True
+    return False
 
 
 def main():
