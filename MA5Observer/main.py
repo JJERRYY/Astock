@@ -87,7 +87,8 @@ def main():
     holding_stocks,holding_codes  = read_holding_stocks("holding.txt")
 
     data_provider = AdataProvider()
-    strategy = PriceRangeStrategy(tolerance=0.03)
+    tolerance = 0.03
+    strategy = PriceRangeStrategy(tolerance=tolerance)
     notifier = Notifier()
 
     historical_data_dict = {}
@@ -157,9 +158,12 @@ def main():
                         # 检查是否是5分钟内的重复提醒
                         current_time = datetime.now()
                         if code not in last_alert_time or (current_time - last_alert_time[code]).seconds > 10:
-                            logger.info(f"[ALERT] {code} {stock_name} 价格 {current_price:.2f} 已进入区间 [{ma5:.2f}, {ma5 * 1.02:.2f}]")
+                            # 计算价格距离MA5的百分比
+                            distance = (current_price - ma5) / current_price * 100
+
+                            logger.info(f"[ALERT] {code} {stock_name} 价格 {current_price:.2f} 差距{distance}% 已进入区间 [{ma5:.2f}, {ma5 * (1+tolerance) :.2f}]")
                             msg_title = f"股票 {stock_name} 触发策略"
-                            msg_body = f"当前价: {current_price:.2f}, MA5区间: [{ma5:.2f}, {ma5 * 1.02:.2f}]"
+                            msg_body = f"当前价: {current_price:.2f}, MA5区间: [{ma5:.2f}, {ma5 * (1+tolerance):.2f}]"
                             # logger.info(f"[ALERT] {msg_title} - {msg_body}")
                             threading.Thread(
                                 target=notifier.send_notification,

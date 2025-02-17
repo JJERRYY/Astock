@@ -9,8 +9,7 @@ import time
 class Stock:
     def __init__(self, stock_code, data_provider, is_held=True, time_interval=60):
         self.stock_code = stock_code
-        self.stock_name = data_provider.all_info[data_provider.all_info['stock_code'] == stock_code]['short_name'].iloc[
-            0]
+        self.stock_name = data_provider.all_info[data_provider.all_info['stock_code'] == stock_code]['short_name'].iloc[0]
         self.data_provider = data_provider  # 注入数据提供者实例
         # | 字段           | 类型    | 说明           |
         # |----------------|---------|----------------|
